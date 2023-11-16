@@ -7,11 +7,11 @@
 
 import Foundation
 
-enum DoublyLinkedListError: Error {
+public enum DoublyLinkedListError: Error {
     case valueNotFound
     case invalidOperation
     
-    var errorMessage: String {
+    public var errorMessage: String {
         switch self {
         case .valueNotFound:
             return "Value is Not Found"

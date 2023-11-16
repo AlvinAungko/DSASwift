@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77686E12C79308AB4B04FFE8 /* Pods_DSASwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB415B229DF58A09DD7CC464 /* Pods_DSASwiftTests.framework */; };
+		9D7149D5BECD6C71E2675A6B /* Pods_DSASwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2464DB9A98E628A58DBEE5 /* Pods_DSASwift.framework */; };
 		E112725F2B03B84D00DFCDAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E112725E2B03B84D00DFCDAE /* AppDelegate.swift */; };
 		E11272612B03B84D00DFCDAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11272602B03B84D00DFCDAE /* SceneDelegate.swift */; };
 		E11272662B03B84D00DFCDAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11272642B03B84D00DFCDAE /* Main.storyboard */; };
@@ -27,9 +29,25 @@
 		E11272902B03D2C100DFCDAE /* DeleteStudentDialogVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E112728F2B03D2C100DFCDAE /* DeleteStudentDialogVc.swift */; };
 		E11272932B03DD2000DFCDAE /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11272922B03DD2000DFCDAE /* StudentModel.swift */; };
 		E11272952B03FB6400DFCDAE /* StudentStatusFoundDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11272942B03FB6400DFCDAE /* StudentStatusFoundDialog.swift */; };
+		FBAAF4F12B05436300E939F5 /* DSASwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAAF4F02B05436300E939F5 /* DSASwiftTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FBAAF4F22B05436300E939F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E11272532B03B84D00DFCDAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E112725A2B03B84D00DFCDAE;
+			remoteInfo = DSASwift;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		2B2464DB9A98E628A58DBEE5 /* Pods_DSASwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSASwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		347EFFA3EB895702367D92E5 /* Pods-DSASwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSASwiftTests.release.xcconfig"; path = "Target Support Files/Pods-DSASwiftTests/Pods-DSASwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		7BAD2C2600DE2810A6C0B15F /* Pods-DSASwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSASwift.release.xcconfig"; path = "Target Support Files/Pods-DSASwift/Pods-DSASwift.release.xcconfig"; sourceTree = "<group>"; };
+		97030C3B0EFC959057193158 /* Pods-DSASwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSASwift.debug.xcconfig"; path = "Target Support Files/Pods-DSASwift/Pods-DSASwift.debug.xcconfig"; sourceTree = "<group>"; };
+		BB415B229DF58A09DD7CC464 /* Pods_DSASwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSASwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E112725B2B03B84D00DFCDAE /* DSASwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSASwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E112725E2B03B84D00DFCDAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E11272602B03B84D00DFCDAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +70,9 @@
 		E112728F2B03D2C100DFCDAE /* DeleteStudentDialogVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteStudentDialogVc.swift; sourceTree = "<group>"; };
 		E11272922B03DD2000DFCDAE /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
 		E11272942B03FB6400DFCDAE /* StudentStatusFoundDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentStatusFoundDialog.swift; sourceTree = "<group>"; };
+		E7227BC16E810E444911BE89 /* Pods-DSASwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSASwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-DSASwiftTests/Pods-DSASwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBAAF4EE2B05436300E939F5 /* DSASwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSASwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBAAF4F02B05436300E939F5 /* DSASwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSASwiftTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,17 +80,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D7149D5BECD6C71E2675A6B /* Pods_DSASwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAAF4EB2B05436300E939F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77686E12C79308AB4B04FFE8 /* Pods_DSASwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C6233D24E85D7DA96ED9C6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97030C3B0EFC959057193158 /* Pods-DSASwift.debug.xcconfig */,
+				7BAD2C2600DE2810A6C0B15F /* Pods-DSASwift.release.xcconfig */,
+				E7227BC16E810E444911BE89 /* Pods-DSASwiftTests.debug.xcconfig */,
+				347EFFA3EB895702367D92E5 /* Pods-DSASwiftTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B611538ADC4DDC37DADC8B2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B2464DB9A98E628A58DBEE5 /* Pods_DSASwift.framework */,
+				BB415B229DF58A09DD7CC464 /* Pods_DSASwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E11272522B03B84D00DFCDAE = {
 			isa = PBXGroup;
 			children = (
 				E112725D2B03B84D00DFCDAE /* DSASwift */,
+				FBAAF4EF2B05436300E939F5 /* DSASwiftTests */,
 				E112725C2B03B84D00DFCDAE /* Products */,
+				2C6233D24E85D7DA96ED9C6E /* Pods */,
+				B611538ADC4DDC37DADC8B2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				E112725B2B03B84D00DFCDAE /* DSASwift.app */,
+				FBAAF4EE2B05436300E939F5 /* DSASwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,6 +211,14 @@
 			path = Domain;
 			sourceTree = "<group>";
 		};
+		FBAAF4EF2B05436300E939F5 /* DSASwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBAAF4F02B05436300E939F5 /* DSASwiftTests.swift */,
+			);
+			path = DSASwiftTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E112726F2B03B84F00DFCDAE /* Build configuration list for PBXNativeTarget "DSASwift" */;
 			buildPhases = (
+				82C63B9F80664C346F8DE677 /* [CP] Check Pods Manifest.lock */,
 				E11272572B03B84D00DFCDAE /* Sources */,
 				E11272582B03B84D00DFCDAE /* Frameworks */,
 				E11272592B03B84D00DFCDAE /* Resources */,
+				41ED5AA2101F69F82741A9E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,6 +240,25 @@
 			productName = DSASwift;
 			productReference = E112725B2B03B84D00DFCDAE /* DSASwift.app */;
 			productType = "com.apple.product-type.application";
+		};
+		FBAAF4ED2B05436300E939F5 /* DSASwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBAAF4F62B05436300E939F5 /* Build configuration list for PBXNativeTarget "DSASwiftTests" */;
+			buildPhases = (
+				B3B21362259258146A6DECC6 /* [CP] Check Pods Manifest.lock */,
+				FBAAF4EA2B05436300E939F5 /* Sources */,
+				FBAAF4EB2B05436300E939F5 /* Frameworks */,
+				FBAAF4EC2B05436300E939F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBAAF4F32B05436300E939F5 /* PBXTargetDependency */,
+			);
+			name = DSASwiftTests;
+			productName = DSASwiftTests;
+			productReference = FBAAF4EE2B05436300E939F5 /* DSASwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -189,6 +272,10 @@
 				TargetAttributes = {
 					E112725A2B03B84D00DFCDAE = {
 						CreatedOnToolsVersion = 15.0.1;
+					};
+					FBAAF4ED2B05436300E939F5 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = E112725A2B03B84D00DFCDAE;
 					};
 				};
 			};
@@ -206,6 +293,7 @@
 			projectRoot = "";
 			targets = (
 				E112725A2B03B84D00DFCDAE /* DSASwift */,
+				FBAAF4ED2B05436300E939F5 /* DSASwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -222,7 +310,78 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FBAAF4EC2B05436300E939F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41ED5AA2101F69F82741A9E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DSASwift/Pods-DSASwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DSASwift/Pods-DSASwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DSASwift/Pods-DSASwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82C63B9F80664C346F8DE677 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DSASwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3B21362259258146A6DECC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DSASwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E11272572B03B84D00DFCDAE /* Sources */ = {
@@ -248,7 +407,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FBAAF4EA2B05436300E939F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAAF4F12B05436300E939F5 /* DSASwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBAAF4F32B05436300E939F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E112725A2B03B84D00DFCDAE /* DSASwift */;
+			targetProxy = FBAAF4F22B05436300E939F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E11272642B03B84D00DFCDAE /* Main.storyboard */ = {
@@ -307,7 +482,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -370,7 +545,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -391,6 +566,7 @@
 		};
 		E11272702B03B84F00DFCDAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97030C3B0EFC959057193158 /* Pods-DSASwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -419,6 +595,7 @@
 		};
 		E11272712B03B84F00DFCDAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BAD2C2600DE2810A6C0B15F /* Pods-DSASwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +622,44 @@
 			};
 			name = Release;
 		};
+		FBAAF4F42B05436300E939F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7227BC16E810E444911BE89 /* Pods-DSASwiftTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68X5SYLHZW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SampleTest.DSASwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSASwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DSASwift";
+			};
+			name = Debug;
+		};
+		FBAAF4F52B05436300E939F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 347EFFA3EB895702367D92E5 /* Pods-DSASwiftTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68X5SYLHZW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SampleTest.DSASwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSASwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DSASwift";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -462,6 +677,15 @@
 			buildConfigurations = (
 				E11272702B03B84F00DFCDAE /* Debug */,
 				E11272712B03B84F00DFCDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBAAF4F62B05436300E939F5 /* Build configuration list for PBXNativeTarget "DSASwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBAAF4F42B05436300E939F5 /* Debug */,
+				FBAAF4F52B05436300E939F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

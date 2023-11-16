@@ -83,6 +83,7 @@ extension HomeVc: UITableViewDataSource, UITableViewDelegate {
         cell.item = student
         cell.onDel = {
             let vc = DeleteStudentDialogVc()
+            vc.studentToBeDeleted = student
             vc.onTapDel = {
                 do {
                     try self.listOfStudents.delete(value: student)
@@ -102,18 +103,22 @@ extension HomeVc: UITableViewDataSource, UITableViewDelegate {
 
 extension HomeVc: UITextFieldDelegate {
     
-    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+    func textFieldDidEndEditing(_ textField: UITextField) {
         if let student = self.listOfStudents.getAllValues().filter({ $0.studentName == textField.text ?? "" }).first {
             if listOfStudents.search(value: student) {
                 let vc = StudentStatusFoundDialog()
+                vc.studentSearchStatus = .studentIsFound(student.studentName)
                 self.present(vc, animated: true)
             } else {
-                debugPrint("Not Found")
+                let vc = StudentStatusFoundDialog()
+                vc.studentSearchStatus = .studentIsNotFound
+                self.present(vc, animated: true)
             }
         } else {
-            debugPrint("Not Found")
+            let vc = StudentStatusFoundDialog()
+            vc.studentSearchStatus = .studentIsNotFound
+            self.present(vc, animated: true)
         }
-        return true
     }
 }
 

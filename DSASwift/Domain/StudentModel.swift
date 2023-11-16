@@ -7,21 +7,35 @@
 
 import Foundation
 
-class StudentModel: Comparable {
+public enum StudentSearchStatus {
+    case studentIsFound(String)
+    case studentIsNotFound
     
-    static func == (lhs: StudentModel, rhs: StudentModel) -> Bool {
+    public var status: String {
+        switch self {
+        case .studentIsFound(let studentName):
+            return "\(studentName) is Found."
+        case .studentIsNotFound:
+            return "This Student doesn't exist."
+        }
+    }
+}
+
+public class StudentModel: Comparable {
+    
+    public static func == (lhs: StudentModel, rhs: StudentModel) -> Bool {
         lhs.studentName == rhs.studentName
     }
     
-    static func < (lhs: StudentModel, rhs: StudentModel) -> Bool {
+    public static func < (lhs: StudentModel, rhs: StudentModel) -> Bool {
         lhs.studentName < rhs.studentName
     }
     
-    var studentName: String
-    var studentID: Int
-    var studentAge: Int
+    public var studentName: String
+    public var studentID: Int
+    public var studentAge: Int
     
-    init(studentName: String, studentID: Int, studentAge: Int) {
+    public init(studentName: String, studentID: Int, studentAge: Int) {
         self.studentName = studentName
         self.studentID = studentID
         self.studentAge = studentAge

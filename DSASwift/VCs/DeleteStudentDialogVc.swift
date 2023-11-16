@@ -15,6 +15,7 @@ class DeleteStudentDialogVc: BaseDialogVC {
     let lblDelDesc = UILabel()
     
     var onTapDel: (() -> Void)?
+    var studentToBeDeleted: StudentModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +39,7 @@ class DeleteStudentDialogVc: BaseDialogVC {
         lblDelDesc.font = .systemFont(ofSize: 14, weight: .medium)
         lblDelDesc.textAlignment = .center
         lblDelDesc.numberOfLines = 0
-        lblDelDesc.text = "Are you sure you want to delete this student?"
+        lblDelDesc.text = "Are you sure you want to delete this student \(studentToBeDeleted?.studentName ?? "")"
         lblDelDesc.translatesAutoresizingMaskIntoConstraints = false
         
         btnDel.setTitle("Delete", for: .normal)

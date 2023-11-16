@@ -17,12 +17,14 @@ class Node<T: Comparable> {
     }
 }
 
-class DoublyLinkedList<T: Comparable> {
+public class DoublyLinkedList<T: Comparable> {
     
     var head: Node<T>?
     
+    public init() {}
+    
     // Search for a value in the list
-    func search(value: T) -> Bool {
+    public func search(value: T) -> Bool {
         var current = head
         while let node = current {
             if node.value == value {
@@ -34,7 +36,7 @@ class DoublyLinkedList<T: Comparable> {
     }
     
     // Insert a value at the end of the list
-    func insert(value: T) {
+    public func insert(value: T) {
         let newNode = Node(value: value)
         
         guard let headNode = head else {
@@ -54,7 +56,7 @@ class DoublyLinkedList<T: Comparable> {
 
     
     // Sort the list in ascending order
-    func sort() throws {
+    public func sort() throws {
         guard head != nil else {
             throw DoublyLinkedListError.invalidOperation
         }
@@ -68,7 +70,7 @@ class DoublyLinkedList<T: Comparable> {
     }
     
     // Delete a node with a specific value from the list
-    func delete(value: T) throws {
+    public func delete(value: T) throws {
         var current = head
         while let node = current {
             if node.value == value {
@@ -102,7 +104,7 @@ class DoublyLinkedList<T: Comparable> {
     }
     
     
-    func getAllValues() -> [T] {
+    public func getAllValues() -> [T] {
         var values = [T]()
         var current = head
         while let node = current {

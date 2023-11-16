@@ -16,6 +16,7 @@ class StudentStatusFoundDialog: BaseDialogVC {
     let lblDelDesc = UILabel()
     
     var onTapDel: (() -> Void)?
+    var studentSearchStatus: StudentSearchStatus?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,14 +33,14 @@ class StudentStatusFoundDialog: BaseDialogVC {
         lblConfirmDelete.font = .boldSystemFont(ofSize: 16)
         lblConfirmDelete.textAlignment = .center
         lblConfirmDelete.numberOfLines = 0
-        lblConfirmDelete.text = "Student is Found!"
+        lblConfirmDelete.text = "Searching Student!"
         lblConfirmDelete.translatesAutoresizingMaskIntoConstraints = false
         
         lblDelDesc.textColor = .black
         lblDelDesc.font = .systemFont(ofSize: 14, weight: .medium)
         lblDelDesc.textAlignment = .center
         lblDelDesc.numberOfLines = 0
-        lblDelDesc.text = "This student is in the list"
+        lblDelDesc.text = studentSearchStatus?.status
         lblDelDesc.translatesAutoresizingMaskIntoConstraints = false
         
         btnDel.setTitle("Done", for: .normal)
